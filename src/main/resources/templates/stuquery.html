@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <base th:href="|${#request.getContextPath()}/|">
+    <meta charset="UTF-8">
+    <title>学生查询</title>
+    <link href="css/allcss.css" rel="stylesheet">
+</head>
+<body>
+    <a href="stutoadd">去新加</a>
+    <table border="1" width="100%">
+        <tr>
+            <th>序号</th>
+            <th>学号</th>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>操作</th>
+        </tr>
+        <!--each循环 st为循环的状态变量-->
+        <tr th:each="stu,st:${list}">
+            <td th:text="${st.count}"></td>
+            <td th:text="${stu.sid}"></td>
+            <td th:text="${stu.sname}"></td>
+            <td th:text="${stu.sex}"></td>
+            <td>
+                <a th:href="|stuget/${stu.sid}|">详情</a>
+                <a th:href="|studel/${stu.sid}|" onclick="return confirm('你确定删除吗？')">删除</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

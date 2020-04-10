@@ -1,0 +1,13 @@
+11:04:43.327 logback [main] INFO  c.e.s.SpringbootdemoApplicationTests - Starting SpringbootdemoApplicationTests on DESKTOP-LLKRTML with PID 13120 (started by ¿Ó’Ò¡÷ in D:\IDEA_workplace\springbootdemo)
+11:04:43.343 logback [main] DEBUG c.e.s.SpringbootdemoApplicationTests - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+11:04:43.343 logback [main] INFO  c.e.s.SpringbootdemoApplicationTests - No active profile set, falling back to default profiles: default
+11:04:44.171 logback [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@66ac5762
+11:04:51.937 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:04:52.093 logback [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+11:04:52.328 logback [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 11 mappings in 'requestMappingHandlerMapping'
+11:04:52.343 logback [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+11:04:52.500 logback [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+11:04:52.546 logback [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+11:04:53.656 logback [main] INFO  c.e.s.SpringbootdemoApplicationTests - Started SpringbootdemoApplicationTests in 14.363 seconds (JVM running for 20.457)
+11:04:59.397 logback [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@66ac5762, started on Thu Mar 26 11:04:44 CST 2020
+11:04:59.397 logback [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
